@@ -7,5 +7,7 @@ document.addEventListener ('DOMContentLoaded',function() {
     "use strict";
     console.log ('now we are ready');
 })
-var myid=document.getElementById('inputShift1From')
+document.addEventListener('InputEvent',function() {
+    var myid=document.getElementById('inputShift1From')
 console.log (myid.value);
+})
