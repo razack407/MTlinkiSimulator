@@ -42,29 +42,29 @@
         </div>
         
         <div class ="container border border-dark" >
-            <div class= "row my-1" > <!--Shift1-->
-                <div class="col-sm-1 col-md-1 col-lg-1 my-1 bg-warning border border-primary " >
-                    <span class="text-danger "> Shift &nbsp  I  &nbsp  </span>
+            <form class= "row my-1 " name="inputShft1FromTo" > <!--Test Shift-1-->
+                <div class="col-sm-1 col-md-1 col-lg-1 my-1 bg-warning border border-primary text-center align-self-center" >
+                    <label class="text-danger " for="inputShift1From">  Shift &nbsp  I  &nbsp  </label>
                 </div>
-                <div class="col-sm-1 col-md-1 col-lg-1 my-1 bg-warning" >
-                    <span class="text-danger " > &nbsp From &nbsp </span>
+                <div class="col-sm-1 col-md-1 col-lg-1 my-1 bg-warning text-center align-self-center" >
+                    <label class="text-danger "for="inputShift1From" > From  </label>
                 </div>
-                <div class="col-sm-3 col-md-3 col-lg-2 bg-warning border border-primary my-1" >
-                    <label for="inputShift1From" > </label>
-                    <input type="time" id="inputShift1From" class="bg-info rounded " > 
+                <div class="col-sm-3 col-md-3 col-lg-1 bg-warning border border-primary my-1 align-self-center d-flex justify-content-center ps-0 pe-0 " >
+                    <input type="time" id="inputShift1From" class="bg-info rounded " name="inputShift1From" value="00:00">  
                 </div>
-                <div class="col-sm-1 col-md-1 col-lg-1 bg-warning border border-primary my-1 " >
-                    <span class="text-danger"> to </span>
+                <div class="col-sm-1 col-md-1 col-lg-1 bg-warning border border-primary my-1 text-center align-self-center" >
+                    <label class="text-danger" for="inputShift1To" > to </label>
                 </div>
 
-                <div class="col-sm-3 col-md-3 col-lg-2 bg-warning border border-primary my-1" >
-                    <label for="inputShift1To"></label>
-                    <input type="time" id="inputShift1To" class="bg-info rounded" > 
+                <div class="col-sm-3 col-md-3 col-lg-1 bg-warning border border-primary my-1 align-self-center d-flex justify-content-center ps-0 pe-0" >
+                    
+                    <input type="time" id="inputShift1To" class="bg-info rounded " > 
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-1  bg-warning border border-primary my-1" >
-                    <button type="submit" class="btn-primary rounded">Submit</button>
-                </div>  
-            </div>
+                    <button id="inputFirstShift" type="submit" class="btn-primary rounded">Submit</button>
+                </div>  <!--Test End Shift 1-->
+            </form>
+            
             <div class= "row my-1" > <!--Shift2-->
                 <div class="col-sm-6 col-md-6 col-lg-3" >
                     

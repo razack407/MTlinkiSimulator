@@ -5,9 +5,16 @@
 */
 document.addEventListener ('DOMContentLoaded',function() {
     "use strict";
+   /* var loaded = true; */
     console.log ('now we are ready');
 })
-document.addEventListener('InputEvent',function() {
-    var myid=document.getElementById('inputShift1From')
-console.log (myid.value);
-})
+/*var firstShiftSubmitButton =document.querySelector('#inputFirstShift');*/
+var $firstShiftSubmitButton =$('#inputFirstShift');
+console.log($firstShiftSubmitButton);
+
+$firstShiftSubmitButton.on('click',shiftStartTime);
+
+function shiftStartTime() {
+    var myid=document.getElementById('inputShift1From');
+    console.log (myid.value);
+} ;
